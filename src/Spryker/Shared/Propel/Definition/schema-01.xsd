@@ -635,6 +635,16 @@
                 </xs:documentation>
             </xs:annotation>
         </xs:attribute>
+
+        // @todo should somehow be done on Pyz level
+        <xs:attribute name="acl-table-path" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation xml:lang="en">
+                    Attribute to provide path to acl table.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
         <xs:attribute name="schema" type="schema_name" use="optional">
             <xs:annotation>
                 <xs:documentation xml:lang="en">
